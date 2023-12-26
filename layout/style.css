@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+#main-container{
+    background-color: rgb(240, 234, 230);
+    height: 100vh; /* esta medida representa el alto en la pantalla del usuario */
+    width: 100vw;   /* esta medida representa el ancho en la pantalla del usuario */
+    display: flex; /* habilita a las propiedades de disposicion flex direction, justify content, align item, etc */
+    flex-direction: column; /* DIRECCION DE LOS HUIJOS */
+    justify-content: space-between; /* DIRECCION DEL CONTENEDOR */
+}  
+/* ---------------HEADER STYLE--------------------------- */ 
+header{
+    background-color: #fef158;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;/* el je x es el principla */
+    align-items: center; /* el eje y es el cross */
+    
+}
+#logo-container{
+   
+    height: 80px;
+    width: 150px;
+}
+#logo-image{
+    
+    height: 100%;
+    width: 100%;
+}
+#option-container{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+#profile-container{
+    
+    height: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#profile-image{
+   
+    height: 50px;
+    width: 50px;
+}
+/* --------------HEADER STYLE----------------- */
+/* ----------------------------------------------- */
+/* ---------------------MAIN STYLE----------------- */
+main{
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+footer{
+    background-color: chartreuse;
+    height: 10%;
+}
